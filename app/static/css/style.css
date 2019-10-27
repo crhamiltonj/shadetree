@@ -1,0 +1,15 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+
+  FONTS
+    font-family: 'Modak', cursive
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Noticia Text', serif;
+
+*/

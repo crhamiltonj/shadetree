@@ -1,47 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Arimo|Modak|Noticia+Text&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="{{url_for('front_bp.static', filename='css/style.css') }}">
-  <title>ShadeTree</title>
-</head>
-<body>
-  <header id="header">
-    <div class="branding">
-      <h1>ShadeTree</h1>
-    </div>
-    <div>
-        <nav id="nav-bar">
-            <ul>
-              <li><a href="#">Sign Up</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-    </div>
-  </header>
-  <section id="hero">
-    <div>
-      <p>Hero section goes here.</p>
-    </div>
-  </section>
-  <section id="features">
-    <div>
-      <p>Features Section goes here.</p>
-    </div>
-  </section>
-  <section id="testimonials">
-    <div>
-      <p>Testimonials go here</p>
-    </div>
-  </section>
-  <footer id="footer">
-    <div>
-      <p>Footer section goes here</p>
-    </div>
-  </footer>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block main_content %}
+    <section id="hero">
+      <div>
+        <p>Hero section goes here.</p>
+      </div>
+    </section>
+    <section id="features">
+      <div>
+        <p>Features Section goes here.</p>
+      </div>
+    </section>
+    <section id="testimonials">
+      <div>
+        <p>Testimonials go here</p>
+      </div>
+    </section>
+{% endblock %}
+   
